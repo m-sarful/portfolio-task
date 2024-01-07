@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    background-image: url("/images/banner/banner2.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    background-position: 0 0;
+    display: flex;
+    justify-content: end;
+}
+.title{
+    float: right;
+    font-size: 25px;
+    font-weight: 700;
+    width:34%;
+    font-family: Work Sans;
+    color: #151414;
+    margin: 150px 120px;
+    text-align: end;
+}
+.title p{
+    font-size: 13px;
+}
