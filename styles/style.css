@@ -184,9 +184,8 @@ footer {
     line-height: 26px;
 }
 
-ul {
+.icon {
     display: flex;
-    /* justify-content: space-around; */
     gap: 23px;
 }
 
