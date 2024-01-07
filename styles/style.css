@@ -1,8 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.head{
+
+.head {
     background-image: url("/images/banner/banner2.png");
     background-position: center;
     background-size: cover;
@@ -13,38 +14,88 @@
     display: flex;
     justify-content: end;
 }
-.title{
+
+.title {
     float: right;
     font-size: 25px;
     font-weight: 700;
-    width:34%;
+    width: 34%;
     font-family: Work Sans;
     color: #151414;
     margin: 150px 120px;
     text-align: end;
 }
-.title p{
+
+.title p {
     font-size: 13px;
 }
-main{
+
+main {
     margin: 84px 120px;
 }
- .main-section{
-    background-color: lightgray;
-   display: flex;
-   justify-content: space-around;
-   box-shadow: 10px 10px 0.06px rgb(235, 219, 219);
- }
 
-  .box img{
+.main-section {
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 10px 10px 0.06px rgb(235, 219, 219);
+}
+
+.box img {
     width: 300px;
     height: 360px;
-  }
-  .box-description{
+}
+
+.box-description {
     width: 45%;
     margin: 65px auto;
-  }
- ul{
+}
+
+ul {
     list-style: none;
     margin: 10px;
- }
+}
+
+.plan {
+    margin-top: 34px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.plan-banner{
+    background-color: antiquewhite;
+}
+
+.icon-box {
+    margin-top: 34px;
+    font-size: 10px;
+    padding: 10px;
+}
+
+.icon-box h3 {
+    color: #151414;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.icon-box p {
+    color: #737272;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+
+.head-title {
+    
+    text-align: center;
+    color: #151414;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 64px;
+}
